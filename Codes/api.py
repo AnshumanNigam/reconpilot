@@ -8,23 +8,13 @@ from fastapi import FastAPI, HTTPException
 # Paths
 # --------------------------------------------------
 
-PROJECT_DIR = Path(
-    r"C:\Users\anshu\OneDrive\Desktop\prog\Projects\reconpilot"
-)
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 OUTPUT_DIR = PROJECT_DIR / "Output"
+TESTS_DIR = PROJECT_DIR / "Tests"
 
-RESULTS_PATH = (
-    OUTPUT_DIR
-    / "reconciliation_results.csv"
-)
-
-AI_RESULTS_PATH = (
-    PROJECT_DIR
-    / "Tests"
-    / "ai_investigation_results.csv"
-)
-
+RESULTS_PATH = OUTPUT_DIR / "reconciliation_results.csv"
+AI_RESULTS_PATH = TESTS_DIR / "ai_investigation_results.csv"
 
 # --------------------------------------------------
 # FastAPI application
