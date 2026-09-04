@@ -9,6 +9,7 @@ from datetime import datetime
 # ============================================================
 
 
+
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 DATA_DIR = PROJECT_DIR / "Data"
@@ -18,7 +19,7 @@ TESTS_DIR = PROJECT_DIR / "Tests"
 RESULTS_PATH = OUTPUT_DIR / "reconciliation_results.csv"
 AI_RESULTS_PATH = TESTS_DIR / "ai_investigation_results.csv"
 GROUND_TRUTH_PATH = DATA_DIR / "ground_truth.csv"
-AUDIT_LOG_PATH = OUTPUT_DIR / "audit_log.csv"
+AUDIT_PATH = OUTPUT_DIR / "audit_log.csv"
 # ============================================================
 # PAGE CONFIG
 # ============================================================
