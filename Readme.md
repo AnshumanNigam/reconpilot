@@ -2,6 +2,8 @@
 
 ### AI Finance Controller for Reconciliation, Exception Investigation, and Cash Position Management
 
+Understand the project in more detail here --> [Link](https://drive.google.com/file/d/14s1YqnB92_HTfArCryZ2SbevNSFqQyis/view?usp=sharing)
+
 ReconPilot is an AI-assisted financial reconciliation system designed to automate a finance operations workflow from transaction matching through exception investigation, financial exposure analysis, human approval, and audit logging.
 
 It combines deterministic financial reconciliation with AI-powered exception investigation rather than using an LLM for tasks that can be solved reliably with explicit rules.
