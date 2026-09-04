@@ -25,7 +25,7 @@ AUDIT_LOG_PATH = OUTPUT_DIR / "audit_log.csv"
 
 st.set_page_config(
     page_title="ReconPilot™",
-    page_icon="💳",
+    page_icon="",
     layout="wide",
 )
 
